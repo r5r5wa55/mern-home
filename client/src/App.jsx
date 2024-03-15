@@ -6,6 +6,7 @@ import Header from './component/Header'
 import Profile from './page/Profile'
 import SignIn from './page/SignIn'
 import SignUp from './page/SignUp'
+
 function App() {
 
 
