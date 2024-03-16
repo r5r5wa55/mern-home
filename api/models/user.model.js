@@ -4,17 +4,16 @@ const userSchema = new mogoose.Schema({
     username:{
         type:String,
         required:true,
-        uniqure:true
+        unique:true,
     },
     email:{
         type:String,
         required:true,
-        uniqure:true
+        unique:true,
     },
     password:{
         type:String,
-        required:true,
-        uniqure:true
+        required:true
     }
 },{timestamps:true})
 
